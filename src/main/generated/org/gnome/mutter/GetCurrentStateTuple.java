@@ -1,61 +1,57 @@
 package org.gnome.mutter;
 
-import java.util.List;
-import java.util.Map;
 import org.freedesktop.dbus.Tuple;
 import org.freedesktop.dbus.annotations.Position;
-import org.freedesktop.dbus.types.UInt32;
-import org.freedesktop.dbus.types.Variant;
 
 /**
  * Auto-generated class.
  */
-public class GetCurrentStateTuple extends Tuple {
+public class GetCurrentStateTuple<A, B, C, D> extends Tuple {
     @Position(0)
-    private UInt32 serial;
+    private A serial;
     @Position(1)
-    private List<GetCurrentStateMonitorsStruct> monitors;
+    private B monitors;
     @Position(2)
-    private List<GetCurrentStateLogicalMonitorsStruct> logicalMonitors;
+    private C logicalMonitors;
     @Position(3)
-    private Map<String, Variant<?>> properties;
+    private D properties;
 
-    public GetCurrentStateTuple(UInt32 serial, List<GetCurrentStateMonitorsStruct> monitors, List<GetCurrentStateLogicalMonitorsStruct> logicalMonitors, Map<String, Variant<?>> properties) {
+    public GetCurrentStateTuple(A serial, B monitors, C logicalMonitors, D properties) {
         this.serial = serial;
         this.monitors = monitors;
         this.logicalMonitors = logicalMonitors;
         this.properties = properties;
     }
 
-    public void setSerial(UInt32 arg) {
+    public void setSerial(A arg) {
         serial = arg;
     }
 
-    public UInt32 getSerial() {
+    public A getSerial() {
         return serial;
     }
 
-    public void setMonitors(List<GetCurrentStateMonitorsStruct> arg) {
+    public void setMonitors(B arg) {
         monitors = arg;
     }
 
-    public List<GetCurrentStateMonitorsStruct> getMonitors() {
+    public B getMonitors() {
         return monitors;
     }
 
-    public void setLogicalMonitors(List<GetCurrentStateLogicalMonitorsStruct> arg) {
+    public void setLogicalMonitors(C arg) {
         logicalMonitors = arg;
     }
 
-    public List<GetCurrentStateLogicalMonitorsStruct> getLogicalMonitors() {
+    public C getLogicalMonitors() {
         return logicalMonitors;
     }
 
-    public void setProperties(Map<String, Variant<?>> arg) {
+    public void setProperties(D arg) {
         properties = arg;
     }
 
-    public Map<String, Variant<?>> getProperties() {
+    public D getProperties() {
         return properties;
     }
 

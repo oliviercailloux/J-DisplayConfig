@@ -1,28 +1,26 @@
 package org.gnome.mutter;
 
-import java.util.List;
 import org.freedesktop.dbus.Tuple;
 import org.freedesktop.dbus.annotations.Position;
-import org.freedesktop.dbus.types.UInt32;
 
 /**
  * Auto-generated class.
  */
-public class GetResourcesTuple extends Tuple {
+public class GetResourcesTuple<A, B, C, D, E, F> extends Tuple {
     @Position(0)
-    private UInt32 serial;
+    private A serial;
     @Position(1)
-    private List<GetResourcesCrtcsStruct> crtcs;
+    private B crtcs;
     @Position(2)
-    private List<GetResourcesOutputsStruct> outputs;
+    private C outputs;
     @Position(3)
-    private List<GetResourcesModesStruct> modes;
+    private D modes;
     @Position(4)
-    private int maxScreenWidth;
+    private E maxScreenWidth;
     @Position(5)
-    private int maxScreenHeight;
+    private F maxScreenHeight;
 
-    public GetResourcesTuple(UInt32 serial, List<GetResourcesCrtcsStruct> crtcs, List<GetResourcesOutputsStruct> outputs, List<GetResourcesModesStruct> modes, int maxScreenWidth, int maxScreenHeight) {
+    public GetResourcesTuple(A serial, B crtcs, C outputs, D modes, E maxScreenWidth, F maxScreenHeight) {
         this.serial = serial;
         this.crtcs = crtcs;
         this.outputs = outputs;
@@ -31,51 +29,51 @@ public class GetResourcesTuple extends Tuple {
         this.maxScreenHeight = maxScreenHeight;
     }
 
-    public void setSerial(UInt32 arg) {
+    public void setSerial(A arg) {
         serial = arg;
     }
 
-    public UInt32 getSerial() {
+    public A getSerial() {
         return serial;
     }
 
-    public void setCrtcs(List<GetResourcesCrtcsStruct> arg) {
+    public void setCrtcs(B arg) {
         crtcs = arg;
     }
 
-    public List<GetResourcesCrtcsStruct> getCrtcs() {
+    public B getCrtcs() {
         return crtcs;
     }
 
-    public void setOutputs(List<GetResourcesOutputsStruct> arg) {
+    public void setOutputs(C arg) {
         outputs = arg;
     }
 
-    public List<GetResourcesOutputsStruct> getOutputs() {
+    public C getOutputs() {
         return outputs;
     }
 
-    public void setModes(List<GetResourcesModesStruct> arg) {
+    public void setModes(D arg) {
         modes = arg;
     }
 
-    public List<GetResourcesModesStruct> getModes() {
+    public D getModes() {
         return modes;
     }
 
-    public void setMaxScreenWidth(int arg) {
+    public void setMaxScreenWidth(E arg) {
         maxScreenWidth = arg;
     }
 
-    public int getMaxScreenWidth() {
+    public E getMaxScreenWidth() {
         return maxScreenWidth;
     }
 
-    public void setMaxScreenHeight(int arg) {
+    public void setMaxScreenHeight(F arg) {
         maxScreenHeight = arg;
     }
 
-    public int getMaxScreenHeight() {
+    public F getMaxScreenHeight() {
         return maxScreenHeight;
     }
 

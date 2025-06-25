@@ -11,23 +11,23 @@ import org.freedesktop.dbus.types.Variant;
  */
 public class GetCurrentStateMonitorsStruct extends Struct {
     @Position(0)
-    private final Struct member0;
+    private final GetCurrentStateMonitorsStructStruct member0;
     @Position(1)
-    private final List<GetCurrentStateMonitorsStructStruct> member1;
+    private final List<GetCurrentStateMonitorsStructStructStruct> member1;
     @Position(2)
     private final Map<String, Variant<?>> member2;
 
-    public GetCurrentStateMonitorsStruct(Struct member0, List<GetCurrentStateMonitorsStructStruct> member1, Map<String, Variant<?>> member2) {
+    public GetCurrentStateMonitorsStruct(GetCurrentStateMonitorsStructStruct member0, List<GetCurrentStateMonitorsStructStructStruct> member1, Map<String, Variant<?>> member2) {
         this.member0 = member0;
         this.member1 = member1;
         this.member2 = member2;
     }
 
-    public Struct getMember0() {
+    public GetCurrentStateMonitorsStructStruct getMember0() {
         return member0;
     }
 
-    public List<GetCurrentStateMonitorsStructStruct> getMember1() {
+    public List<GetCurrentStateMonitorsStructStructStruct> getMember1() {
         return member1;
     }
 
