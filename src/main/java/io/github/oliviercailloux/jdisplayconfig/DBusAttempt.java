@@ -28,9 +28,7 @@ public class DBusAttempt {
 
       DisplayConfig displayConfig = connection.getRemoteObject("org.gnome.Mutter.DisplayConfig",
           "/org/gnome/Mutter/DisplayConfig", DisplayConfig.class);
-      GetCurrentStateTuple<UInt32, List<GetCurrentStateMonitorsStruct>,
-          List<GetCurrentStateLogicalMonitorsStruct>,
-          Map<String, Variant<?>>> state = displayConfig.GetCurrentState();
+      GetCurrentStateTuple state = displayConfig.GetCurrentState();
       List<GetCurrentStateMonitorsStruct> monitors = state.getMonitors();
       LOGGER.info("Monitors: " + monitors.size());
       GetCurrentStateMonitorsStruct monitor = monitors.get(0);
