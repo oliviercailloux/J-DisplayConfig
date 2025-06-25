@@ -32,7 +32,7 @@ public interface DisplayConfig extends DBusInterface {
 
     void SetCrtcGamma(UInt32 serial, UInt32 crtc, List<UInt16> red, List<UInt16> green, List<UInt16> blue);
 
-    GetCurrentStateTuple<UInt32, List<GetCurrentStateMonitorsStruct>, List<GetCurrentStateLogicalMonitorsStruct>, Map<String, Variant<?>>> GetCurrentState();
+    GetCurrentStateTuple GetCurrentState();
 
     void ApplyMonitorsConfig(UInt32 serial, UInt32 method, List<ApplyMonitorsConfigLogicalMonitorsStruct> logicalMonitors, Map<String, Variant<?>> properties);
 
