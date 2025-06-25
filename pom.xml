@@ -14,6 +14,32 @@
   <properties>
     <github-repository>${project.name}</github-repository>
   </properties>
+  <repositories>
+    <repository>
+      <id>sonatype-snapshots</id>
+      <name>Sonatype Snapshot Repository</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>sonatype-snapshots</id>
+      <name>Sonatype Snapshot Repository</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+    </pluginRepository>
+  </pluginRepositories>
   <build>
     <plugins>
       <plugin>
@@ -44,7 +70,7 @@
           <dependency>
             <groupId>com.github.hypfvieh</groupId>
             <artifactId>dbus-java-utils</artifactId>
-            <version>5.1.1</version>
+            <version>5.2.0-SNAPSHOT</version>
             <exclusions>
               <exclusion>
                 <groupId>com.github.hypfvieh</groupId>
