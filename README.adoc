@@ -1,0 +1,3 @@
+= JDisplayConfig
+
+I generated classes using `com.github.hypfvieh` (see tag `generate`), then modified them manually.
