@@ -31,13 +31,5 @@
       <artifactId>dbus-java-transport-junixsocket</artifactId>
       <version>5.1.1</version>
     </dependency>
-
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-classic</artifactId>
-      <version>1.4.7</version>
-      <scope>runtime</scope>
-      <optional>true</optional>
-    </dependency>
   </dependencies>
 </project>
