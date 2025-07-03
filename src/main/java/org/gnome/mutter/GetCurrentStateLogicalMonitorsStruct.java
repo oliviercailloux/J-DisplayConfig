@@ -8,6 +8,8 @@ import org.freedesktop.dbus.types.UInt32;
 import org.freedesktop.dbus.types.Variant;
 
 /**
+ * A logical monitor configuration.
+ * <p>
  * Auto-generated class.
  */
 public class GetCurrentStateLogicalMonitorsStruct extends Struct {
@@ -38,30 +40,66 @@ public class GetCurrentStateLogicalMonitorsStruct extends Struct {
     this.member6 = member6;
   }
 
+  /**
+   * Retrieves the x position.
+   *
+   * @return the x position
+   */
   public int getMember0() {
     return member0;
   }
 
+  /**
+   * Retrieves the y position.
+   *
+   * @return the y position
+   */
   public int getMember1() {
     return member1;
   }
 
+  /**
+   * Retrieves the scale.
+   *
+   * @return the scale
+   */
   public double getMember2() {
     return member2;
   }
 
+  /**
+   * Retrieves the transform: between 0 and 3 is not flipped; this number mod 4 times 90° is the
+   * angle (for example, 6 is 180° and flipped).
+   *
+   * @return the transform, between 0 and 7
+   */
   public UInt32 getMember3() {
     return member3;
   }
 
+  /**
+   * Retrieves whether this monitor is the primary one.
+   *
+   * @return true iff this monitor is the primary one
+   */
   public boolean getMember4() {
     return member4;
   }
 
+  /**
+   * Retrieves the physical monitors displaying this logical monitor.
+   *
+   * @return the physical monitors
+   */
   public List<GetCurrentStateLogicalMonitorsStructStruct> getMember5() {
     return member5;
   }
 
+  /**
+   * Retrieves other properties of this logical monitor.
+   * 
+   * @return other properties of this logical monitor
+   */
   public Map<String, Variant<?>> getMember6() {
     return member6;
   }
