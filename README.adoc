@@ -1,3 +1,5 @@
 = JDisplayConfig
 
-I generated classes using `com.github.hypfvieh` (see tag `generate`), then modified them manually.
+The raw access to the whole D-Bus API of Mutter.
+
+I generated classes using `com.github.hypfvieh` (see tag `generate`), then added a bit of documentation manually.
