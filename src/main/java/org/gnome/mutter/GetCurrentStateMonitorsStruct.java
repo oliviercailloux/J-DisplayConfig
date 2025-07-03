@@ -28,6 +28,7 @@ public class GetCurrentStateMonitorsStruct extends Struct {
 
   /**
    * Retrieves the standard properties of this physical monitor.
+   * 
    * @return the properties of this physical monitor
    */
   public GetCurrentStateMonitorsStructStruct getMember0() {
@@ -36,6 +37,7 @@ public class GetCurrentStateMonitorsStruct extends Struct {
 
   /**
    * Retrieves the available modes.
+   * 
    * @return the available modes
    */
   public List<GetCurrentStateMonitorsStructStructStruct> getMember1() {
@@ -44,6 +46,7 @@ public class GetCurrentStateMonitorsStruct extends Struct {
 
   /**
    * Retrieves optional properties of this physical monitor.
+   * 
    * @return optional properties of this physical monitor
    */
   public Map<String, Variant<?>> getMember2() {
