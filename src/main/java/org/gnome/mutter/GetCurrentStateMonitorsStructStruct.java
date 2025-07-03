@@ -4,6 +4,7 @@ import org.freedesktop.dbus.Struct;
 import org.freedesktop.dbus.annotations.Position;
 
 /**
+ * Standard properties of a physical monitor.<p>
  * Auto-generated class.
  */
 public class GetCurrentStateMonitorsStructStruct extends Struct {
@@ -23,18 +24,34 @@ public class GetCurrentStateMonitorsStructStruct extends Struct {
         this.member3 = member3;
     }
 
+    /**
+     * Retrieves the connector name.
+     * @return the connector name
+     */
     public String getMember0() {
         return member0;
     }
 
+    /**
+     * Retrieves the vendor name.
+     * @return the vendor name
+     */
     public String getMember1() {
         return member1;
     }
 
+    /**
+     * Retrieves the product name.
+     * @return the product name
+     */
     public String getMember2() {
         return member2;
     }
 
+    /**
+     * Retrieves the product serial.
+     * @return the product serial
+     */
     public String getMember3() {
         return member3;
     }

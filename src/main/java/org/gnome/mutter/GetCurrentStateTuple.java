@@ -35,6 +35,10 @@ public class GetCurrentStateTuple<A, B, C, D> extends Tuple {
         monitors = arg;
     }
 
+    /**
+     * Retrieves the physical monitors.
+     * @return the physical monitors
+     */
     public B getMonitors() {
         return monitors;
     }

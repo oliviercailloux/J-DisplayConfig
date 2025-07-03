@@ -7,6 +7,7 @@ import org.freedesktop.dbus.annotations.Position;
 import org.freedesktop.dbus.types.Variant;
 
 /**
+ * Available mode of a physical monitor.<p>
  * Auto-generated class.
  */
 public class GetCurrentStateMonitorsStructStructStruct extends Struct {
@@ -35,30 +36,58 @@ public class GetCurrentStateMonitorsStructStructStruct extends Struct {
         this.member6 = member6;
     }
 
+    /**
+     * Retrieves the mode id.
+     * @return the mode id
+     */
     public String getMember0() {
         return member0;
     }
 
+    /**
+     * Retrieves the width in physical pixels.
+     * @return the width in physical pixels
+     */
     public int getMember1() {
         return member1;
     }
 
+    /**
+     * Retrieves the height in physical pixels.
+     * @return the height in physical pixels
+     */
     public int getMember2() {
         return member2;
     }
 
+    /**
+     * Retrieves the refresh rate.
+     * @return the refresh rate
+     */
     public double getMember3() {
         return member3;
     }
 
+    /**
+     * Retrieves the scale preferred as per calculations.
+     * @return the scale preferred as per calculations
+     */
     public double getMember4() {
         return member4;
     }
 
+    /**
+     * Retrieves the scales supported by this mode.
+     * @return the scales supported by this mode
+     */
     public List<Double> getMember5() {
         return member5;
     }
 
+    /**
+     * Retrieves optional properties of this mode.
+     * @return optional properties of this mode
+     */
     public Map<String, Variant<?>> getMember6() {
         return member6;
     }
