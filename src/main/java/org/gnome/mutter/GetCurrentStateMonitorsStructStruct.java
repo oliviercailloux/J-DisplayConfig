@@ -28,7 +28,7 @@ public class GetCurrentStateMonitorsStructStruct extends Struct {
 
   /**
    * Retrieves the connector name.
-   * 
+   *
    * @return the connector name
    */
   public String getMember0() {
@@ -37,7 +37,7 @@ public class GetCurrentStateMonitorsStructStruct extends Struct {
 
   /**
    * Retrieves the vendor name.
-   * 
+   *
    * @return the vendor name
    */
   public String getMember1() {
@@ -46,7 +46,7 @@ public class GetCurrentStateMonitorsStructStruct extends Struct {
 
   /**
    * Retrieves the product name.
-   * 
+   *
    * @return the product name
    */
   public String getMember2() {
@@ -55,7 +55,7 @@ public class GetCurrentStateMonitorsStructStruct extends Struct {
 
   /**
    * Retrieves the product serial.
-   * 
+   *
    * @return the product serial
    */
   public String getMember3() {

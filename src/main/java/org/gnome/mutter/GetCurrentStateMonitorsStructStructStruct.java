@@ -40,7 +40,7 @@ public class GetCurrentStateMonitorsStructStructStruct extends Struct {
 
   /**
    * Retrieves the mode id.
-   * 
+   *
    * @return the mode id
    */
   public String getMember0() {
@@ -49,7 +49,7 @@ public class GetCurrentStateMonitorsStructStructStruct extends Struct {
 
   /**
    * Retrieves the width in physical pixels.
-   * 
+   *
    * @return the width in physical pixels
    */
   public int getMember1() {
@@ -58,7 +58,7 @@ public class GetCurrentStateMonitorsStructStructStruct extends Struct {
 
   /**
    * Retrieves the height in physical pixels.
-   * 
+   *
    * @return the height in physical pixels
    */
   public int getMember2() {
@@ -67,7 +67,7 @@ public class GetCurrentStateMonitorsStructStructStruct extends Struct {
 
   /**
    * Retrieves the refresh rate.
-   * 
+   *
    * @return the refresh rate
    */
   public double getMember3() {
@@ -76,7 +76,7 @@ public class GetCurrentStateMonitorsStructStructStruct extends Struct {
 
   /**
    * Retrieves the scale preferred as per calculations.
-   * 
+   *
    * @return the scale preferred as per calculations
    */
   public double getMember4() {
@@ -85,7 +85,7 @@ public class GetCurrentStateMonitorsStructStructStruct extends Struct {
 
   /**
    * Retrieves the scales supported by this mode.
-   * 
+   *
    * @return the scales supported by this mode
    */
   public List<Double> getMember5() {
@@ -94,7 +94,7 @@ public class GetCurrentStateMonitorsStructStructStruct extends Struct {
 
   /**
    * Retrieves optional properties of this mode.
-   * 
+   *
    * @return optional properties of this mode
    */
   public Map<String, Variant<?>> getMember6() {
