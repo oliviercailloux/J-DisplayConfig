@@ -97,7 +97,7 @@ public class GetCurrentStateLogicalMonitorsStruct extends Struct {
 
   /**
    * Retrieves other properties of this logical monitor.
-   * 
+   *
    * @return other properties of this logical monitor
    */
   public Map<String, Variant<?>> getMember6() {
